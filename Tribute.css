@@ -1,0 +1,88 @@
+body{
+  background-image: linear-gradient(orange,white,lightgreen) ;
+  height: 3400px;
+  }
+
+#intro{
+  font-style: normal;
+  font-size: 60px;
+  text-align:center;
+  font-weight: bold;
+  color:brown
+  
+  }
+
+.intro{
+    font-style:italic;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color:mediumvioletred;
+    }
+  
+  #title{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 60px;
+      text-decoration: underline;
+      color:orangered
+
+}
+
+#image{
+       text-align:center;
+}
+
+#bio{
+  font-size: 35px;
+}
+
+#quote{
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: initial;
+  border: 10px solid darkgreen;
+  padding: 25px;
+}
+#honour{
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+
+#awards{
+  font-size: 60px;
+  text-decoration: underline;
+  color:darkgreen
+} 
+#award{
+  font-size: 50px;
+  width: 100%;
+  border-collapse: collapse;
+}  
+table {
+  font-size: 30px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+td, th {
+  border :3px solid #006400;
+  text-align: left;
+  padding: 8px;
+}
+.Books{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+
+}
+#reference{
+  font-size: 60px;
+}
+
+
+
+
+

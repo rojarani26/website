@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+
+nav{
+    width:100%;
+    background-color: black;
+    height:80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    color:#ff4545;
+    font-weight: bold;
+    padding: 0px 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 100px;
+}
+ul li{
+    list-style-type: none;
+    display : inline-block;
+    padding: 0px 40px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: red;
+}
+
+.header{
+    background-image: url("food.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%,-90%);
+    color:white
+}
+span{
+    color: #ff4545;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    font-size: 30px;
+}
+.button{
+    padding: 5px 30px;
+    font-size: 20px;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 20px solid transparent;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.order{
+    margin-top: 20px;
+    background: #f9004d ;
+    border: none;
+    outline: none;
+    letter-spacing: .04em;
+    font-size: 30px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+button:hover{
+    transform: scale(1,2);
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #ff4545;
+    
+}
+.about img{
+    height: auto;
+    width: 450px;
+}
+   
+.aboutus{
+        width: 550px;
+}
+.info{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+
+.aboutus h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.aboutus p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+
+.heading{
+    font-size: 12rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap: 30px;
+}
+
+.item img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+    text-align:center;
+}
+.item h4{
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.contact{
+    width: 100%;
+    height: 80vh;
+    background-color: #ff4545;
+}
+.contact_us{
+        width:85%;
+        max-width: 600px;
+        background: #f1f1f1;
+        position: absolute;
+        transform: translate(120%,40%);
+        padding: 30px 50px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 0 20px black;
+}
+.form{
+    border: 1px solid grey;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.form label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.form input, .form textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline:none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+
+
+
